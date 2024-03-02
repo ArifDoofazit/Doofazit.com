@@ -1,4 +1,5 @@
 <script setup>
+
 </script>
 <template>
     <div class="bg-current h-auto py-10">
@@ -45,11 +46,7 @@
     </div>
 </template>
 <style>
-.footer-main-box h2{
-    background-image: linear-gradient(-225deg, #37a000 0%, #29B841 29%, #1148d7 67%, #fff800 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 @media all and (min-width:320px) and (max-width:780px){
 .footer-main-box{
     width: 90%;

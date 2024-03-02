@@ -7,15 +7,15 @@
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="../assets/slider/0dc3b798ff49a3e30b799cf074756b8a.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="../assets/slider/c166a7f02e032afd2a928f686995136a.jpg" class="absolute block w-full -translate-x-1/2 left-1/2 h-full" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="../assets/slider/6f540c68ee8b6eb63caa03ca4205f9e5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="../assets/slider/6f540c68ee8b6eb63caa03ca4205f9e5.jpg" class="absolute block w-full -translate-x-1/2 left-1/2 h-full" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="../assets/slider/c166a7f02e032afd2a928f686995136a.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                <img src="../assets/slider/0dc3b798ff49a3e30b799cf074756b8a.jpg" class="absolute block w-full -translate-x-1/2 left-1/2 h-full" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
@@ -43,3 +43,17 @@
         </button>
     </div>
 </template>
+<style>
+    #services::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1297px;
+    left: 0;
+    top: 2400px;
+    z-index: 1;
+    background: #000;
+    opacity: .6;
+}
+</style>
