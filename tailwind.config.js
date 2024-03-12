@@ -5,7 +5,10 @@ export default {
   theme: {
     extend: {},
   },
-  plugins:[require('flowbite/plugin')
+  plugins:[
+    './src/**/*.html',
+    './src/**/*.js',
+    require('flowbite/plugin'),
 ],
 }
 
